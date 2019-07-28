@@ -68,6 +68,7 @@ public class HeapSort {
      *  2）每次将队顶的值与堆底交换，调整堆
      */
     public static void heapSort(int[] arr){
+//        int a = Integer.MAX_VALUE;
 
         if(arr == null || arr.length<2)
             return;
@@ -106,17 +107,10 @@ public class HeapSort {
      * 快排partition部分没有稳定性； 01 stable sort可以实现
      * 若问：时间复杂度O(N), 空间复杂度O(1)，能否实现稳定的将一个数组奇数、偶数各放一边，本质上与快排一样，不能实现
      *
-     * 50min
-     */
-
-    /**
-     * 桶排序
-     * 计数排序
+     *
      */
 
 
-    /**
-     * 给定一个数组，求如果排序之后，相邻两数的最大差值，要求时
-     * 间复杂度O(N)，且要求不能用非基于比较的排序。
-     */
 }
+
+
